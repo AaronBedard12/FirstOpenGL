@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\abeda\\OneDrive\\Desktop\\Personal Projects\\Graphics\\FirstProject\\",
+  "WorkspaceRootPath": "C:\\Users\\abeda\\OneDrive\\Desktop\\Personal Projects\\Graphics\\FirstOpenGL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7AB00185-3DBA-441B-8898-E392260AFFE4}|FirstProject.vcxproj|C:\\Users\\abeda\\OneDrive\\Desktop\\Personal Projects\\Graphics\\FirstProject\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{7AB00185-3DBA-441B-8898-E392260AFFE4}|FirstProject.vcxproj|solutionrelative:Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{7AB00185-3DBA-441B-8898-E392260AFFE4}|FirstProject.vcxproj|C:\\Users\\abeda\\OneDrive\\Desktop\\Personal Projects\\Graphics\\FirstOpenGL\\Initialization.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7AB00185-3DBA-441B-8898-E392260AFFE4}|FirstProject.vcxproj|solutionrelative:Initialization.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,12 +19,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Main.cpp",
-              "DocumentMoniker": "C:\\Users\\abeda\\OneDrive\\Desktop\\Personal Projects\\Graphics\\FirstProject\\Main.cpp",
-              "RelativeDocumentMoniker": "Main.cpp",
-              "ToolTip": "C:\\Users\\abeda\\OneDrive\\Desktop\\Personal Projects\\Graphics\\FirstProject\\Main.cpp",
-              "RelativeToolTip": "Main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAANAAAA",
+              "Title": "Initialization.cpp",
+              "DocumentMoniker": "C:\\Users\\abeda\\OneDrive\\Desktop\\Personal Projects\\Graphics\\FirstOpenGL\\Initialization.cpp",
+              "RelativeDocumentMoniker": "Initialization.cpp",
+              "ToolTip": "C:\\Users\\abeda\\OneDrive\\Desktop\\Personal Projects\\Graphics\\FirstOpenGL\\Initialization.cpp",
+              "RelativeToolTip": "Initialization.cpp",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAADoAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-16T06:05:36.609Z",
               "EditorCaption": ""
