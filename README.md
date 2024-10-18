@@ -9,3 +9,6 @@ I added a window, but whenever I would try and run the code to open the window i
 
 ## >Vertex Data
 Now the message might be a bit misleading, but its also technically true. I 2 structs that really only hold one triangle. I want to do the math myself, so I'm going to leave it like this. I did however have to write a vertex shader in glsl, which i dont understand, but it will come to me at some point.
+
+## >Shader Work
+This description will be a bit less, and not really explain what I did, partially because I don't have time, but mainly because I really don't understand what I did. My guess is that after I set up the shaders at the top of the program, I had to actually compile it as a shader, so I made a shader program and attached the two shaders to it, now I have to figure out the rest of drawing this stupid triangle.
