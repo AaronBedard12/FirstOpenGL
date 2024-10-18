@@ -30,6 +30,13 @@ int main()
 		"	gl_Position = vec4(aPos.x, aPos.y, aPos.z, 1.0);\n"
 		"}\n";
 
+	const char* fragmentShaderSource = "#version 330 core\n"
+		"out vec4 FragColor;\n\n"
+		"void main()\n"
+		"{\n"
+		"	FragColour = vec4(1.0f, 0.5f, 0.2f, 1.0f);\n"
+		"}\n";
+
 	//initializes OpenGL, If We can't, then exit gracefully
 	if (!glfwInit())
 	{
@@ -86,9 +93,26 @@ int main()
 	//Setting up a vertex shader (Whatever that means)
 	unsigned int vertexShader;
 	vertexShader = glCreateShader(GL_VERTEX_SHADER);
-
 	glShaderSource(vertexShader, 1, &vertexShaderSource, NULL);
 	glCompileShader(vertexShader);
+
+	unsigned int fragmentShader;
+	fragmentShader = glCreateShader(GL_FRAGMENT_SHADER);
+	glShaderSource(fragmentShader, 1, &fragmentShaderSource, NULL);
+	glCompileShader(fragmentShader);
+
+	unsigned int shaderProgram = glCreateProgram();
+	glAttachShader(shaderProgram, vertexShader);
+	glAttachShader(shaderProgram, fragmentShader);
+	glLinkProgram(shaderProgram);
+
+	glUseProgram(shaderProgram);
+
+	glDeleteShader(vertexShader);
+	glDeleteShader(fragmentShader);
+
+	glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*)0);
+	glEnableVertexAttribArray(0);
 
 	//While the user isn't trying to close the window, it allows the window to update with changes, aswell as takes input
 	//This is apparently called the render loop
