@@ -12,3 +12,6 @@ Now the message might be a bit misleading, but its also technically true. I 2 st
 
 ## >Shader Work
 This description will be a bit less, and not really explain what I did, partially because I don't have time, but mainly because I really don't understand what I did. My guess is that after I set up the shaders at the top of the program, I had to actually compile it as a shader, so I made a shader program and attached the two shaders to it, now I have to figure out the rest of drawing this stupid triangle.
+
+## >Brief Hiatus
+I have been busy at school and have had no time to work on it. I will hopefully be able to find some time, but im still pretty unsure.
